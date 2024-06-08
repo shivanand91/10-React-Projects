@@ -6,10 +6,15 @@
   font-family: "poppins", sans-serif;
 }
 
+body{
+  background: #f5f9fb91;
+}
+
 .navbar{
 
   display: flex;
   height: 60px;
+  background: #fff;
   border-bottom: 2px solid rgb(219, 214, 214);
 }
 
@@ -27,4 +32,52 @@
 .contacthead p{
 
   color: rgb(118, 115, 115);
+}
+
+.contactInfo{
+  display: flex;
+  margin: 2rem auto;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.form{
+
+  margin: 2rem auto;
+}
+
+.anotherOptions{
+  display: flex;
+  gap: 20px;
+}
+
+.others{
+  height: 40px;
+  width: 200px;
+  gap: 10px;
+  display: flex;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.email{
+  height: 40px;
+  width: 420px;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #000;
+  border-radius: 5px;
 }
