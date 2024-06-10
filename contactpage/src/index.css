@@ -80,4 +80,37 @@ body{
   font-weight: 500;
   background-color: #000;
   border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.submit{
+  display: flex;
+  flex-direction: column;
+}
+
+.submit input{
+  height: 40px;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.submit textarea{
+
+  font-size: 15px;
+  padding: 15px;
+}
+
+.submit button{
+  
+  margin-top: 1rem;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
 }
